@@ -1,0 +1,140 @@
+
+#my_topa{
+    background-color: rgba(225, 196, 161, 0.18);
+    margin:auto;
+}
+
+/* 顶部样式 */
+.my_index_top{
+    margin-top: 1px;
+    height: 95px;
+    border-bottom:2px solid #00aa88;
+}
+.my_top{
+    background-color: rgba(112, 76, 36, 0.13);
+}
+.my_ie{
+    color:#000000;
+}
+.my_ie2:hover {
+    text-decoration: none;
+    color: #fd7e14;
+}
+.my_ie1:hover{
+    text-decoration:none;
+    color:#fd7e14;
+}
+.my_ie2{
+    color:#000000;
+}
+.my_top-a2,.if{
+    color:#000000;
+    font-size: 23px;
+}
+.my_top>.top-a2>input.f-size{
+    font-size:0.9rem;
+    color:#00aa88;
+}
+.t{
+    width:10rem;
+    height:2rem;
+}
+/*导航栏*/
+.my_sf{
+    color:#1cb8ad;
+}
+.my_sf:hover{
+    text-decoration:none;
+    color:red;
+}
+.my_f1{clear:both;}
+/*隐藏下拉框*/
+.my_li > a {
+    padding-left: 26px;
+    padding-right: 26px;
+    font-size: 16px;
+    color: #777;
+    background-color: transparent;
+    transition: all .5s;
+}
+.product {
+    z-index: 1000;
+    width:150px;
+    height:135px;
+    background-color:#FFFFFF;
+    position: absolute;
+    text-align:center;
+}
+.product2 a{
+    color: #000000;
+}
+.product2 :hover{
+    text-decoration: none;
+    color: #1c9b8f;
+}
+.product1{
+    display:none;
+}
+/*轮播图*/
+.container{
+    margin-top:10px;
+}
+/*二部分*/
+.tit_b{
+    text-align:inherit;
+    text-align: center;
+    margin-bottom: 0;
+    color: #222;
+}
+/*左右箭头*/
+/*.my_prev{*/
+    /*/!*position:absolute;*!/*/
+    /*width:30px;*/
+    /*height:60px;*/
+    /*top:200px;*/
+    /*border-radius:30px;*/
+    /*background-color:#1c9b8f;*/
+/*}*/
+#my_car{
+    position:relative;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    position: absolute;
+    width:3%;
+    height:15%;
+    top: 46%;
+    bottom: 0;
+    border-radius:30px;
+    background-color:#1c9b8f;
+    display: flex;
+    align-items: center;
+}
+.my_im{
+    height:70%;
+    width:100%;
+    /*cursor:pointer;*/
+}
+
+/*@media screen and (max-width:552px){*/
+    /*.my_im{*/
+        /*width:20rem;*/
+        /*height:100%;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width: 553px) and (max-width: 991px){*/
+    /*.my_im{*/
+        /*width:100%;*/
+        /*height:80%;*/
+    /*}*/
+/*}*/
+/*@media screen and (min-width: 992px){*/
+    /*.my_im{*/
+        /*width:100%;*/
+        /*height:60%;*/
+    /*}*/
+/*}*/
+
+/*.my_pp_fd:hover .my_img{*/
+    /*opacity:0.3;*/
+/*}*/

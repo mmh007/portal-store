@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册、登录界面</title>
+    <meta name="viewport" charset="width=device-width，initial-scale=1.0">
+    <!-- 引入boot文件，引入顺序有要求-->
+    <link rel="stylesheet" href="css/boot/bootstrap.css"/>
+    <script src="css/boot/jquery.min.js"></script>
+    <script src="css/boot/popper.min.js"></script>
+    <script src="css/boot/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/font/css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/font/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/login_box.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <div class="container m-0 p-0 mw-100 ">
+        <!-- 顶部详情---导航栏 -->
+        <div class="my_topm p-4 m-0 ">
+            <div class="justify-content-between d-flex ml-5 ">
+                <div class="mt-2  ml-5">
+                    <img src="images/logo.png" class="" alt=""/>
+                </div>
+                <div class="justify-content-between">
+                    <ul class="list-unstyled d-flex mt-2">
+                        <li><a href="index.html" class="list-unstyled my_topzi ml-4">企业之家</a></li>
+                        <li><a href="ourt.html" class="list-unstyled my_topzi ml-4">关于我们</a></li>
+                        <li><a href="bigraph.html" class="list-unstyled my_topzi ml-4">投资组合</a></li>
+                        <li><a href="bigrapp.html" class="list-unstyled my_topzi ml-4">微博博客</a></li>
+                        <li><a href="shop.html" class="list-unstyled my_topzi ml-4">店家</a></li>
+                        <li><a href="liaison.html" class="list-unstyled my_topzi ml-4">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="top-a2 col-lg-3 col-md-4 col-sm-12 p-0">
+                    <input type="text" placeholder="展览一角！" value="" class="border-0 rounded m-0 t m-2 w-75 my_w_80 fa-1x if-size" />
+                    <a href="#" class="right Example fa of fa-search if ie2 clearfix m-0 p-0"></a>
+                </div>
+            </div>
+        </div>
+        <!-- 登录界面-->
+            <div class="my_asa my_color  my_zt d-flex">
+                <form class="my_form">
+                    用户名: <input type="text" autofocus placeholder="请输入用户名" required minlength="3" maxlength="5" name="uname" class="my_for" id="uname"/><br><br>
+                    密&nbsp;&nbsp; 码: <input type="password" required minlength="3" maxlength="8" name="upwd"  class="my_for" pattern="^[0-9]\d{6,8}$" id="upwd"/><br><br>
+                    <a href="login_boxa.html" class="my_ha btn btn-primary border-white" target="_blank">注册</a>
+                    <input type="button" class="my_for2" value="登录" onclick="login()">
+                    <div id="d1" style="color:red"></div>
+                </form>
+            </div>
+            <!-- 背景动画 -->
+            <div class="my_asaa d-flex">
+                <video src="res/x.mp4" autoplay loop muted class="my_as"></video>
+            </div>
+
+        <!-- 底部详情 -->
+        <div class="my_topma p-0 m-0 ">
+            <div class="justify-content-between d-flex ml-5 ">
+                <div class="justify-content-between">
+                        <ul class="my_sizec list-unstyled d-flex mt-5">
+                        <li class="ml-2"><a href="#" class="my_sized list-unstyled">关于我们</a>
+                        <li class="ml-2">|&nbsp;&nbsp;<a href="#" class="my_sized list-unstyled">招聘信息</a>
+                        <li class="ml-2">|&nbsp;&nbsp;<a href="#" class="my_sized list-unstyled">联系我们</a>
+                        <li class="ml-2">|&nbsp;&nbsp;<a href="#" class="my_sized list-unstyled">商务合作</a>
+                        <li class="ml-2">|&nbsp;&nbsp;<a href="#" class="my_sized list-unstyled">站长统计</a>
+                    </ul>
+                    <li class="my_sizec list-unstyled m-auto">
+                        <p>Copyright &copy; 企业之家有限公司版权所有 京ICP备12003709号-2</p>
+                    </li>
+                </div>
+                <div class="m-auto">
+                <ul class="my_sizec  list-unstyled mt-5">
+                <li class="mt-3">企业精品在线WWW.TMOOC.CN 专注于企业网站学习</li>
+                <li class="mt-3">涵盖10年企业大招，致力于最权威的IT职业教育发布平台</li>
+                </ul>
+                </div>
+                <div class="m-auto">
+                <img src="images/erweima.png" alt=""/>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/ajax.js"></script>
+</body>
+</html>

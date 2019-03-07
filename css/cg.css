@@ -1,0 +1,42 @@
+/*±³¾°Í¼*/
+.my_auto{
+    margin-top: 20px;
+}
+.my_bg_tu{
+    width: 600px;height:600px;
+    background-color: rgba(163, 247, 255, 0.49);
+    margin-left: 250px;
+    border-radius:2%;
+    /*position:fixed;*/
+}
+.my_cg{
+    width:300px;
+    height:300px;
+    background-color:#24D1BF;
+    border-radius:50%;
+}
+.my_zg{
+    margin-top: 120px;
+    font-size:40px;
+    text-indent:70px;
+}
+.my_cg{
+    margin-top:6rem;
+}
+
+.my_zg:hover {
+    transform:scale(1.1)
+}
+.my_cg:hover {
+    transform:scale(1.1)
+}
+/*Ìø×ªÒ³Ãæ*/
+.my_js:hover{
+    text-decoration: none;
+    color:#00aa88;
+}
+.my_Close{
+    top:28px;
+    right:30px;
+    position:relative;
+}

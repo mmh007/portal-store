@@ -1,0 +1,88 @@
+/*顶部样式*/
+.my-bag{
+    background-color: rgba(249, 188, 131, 0.36);
+    border-bottom: 2px solid #00aa88;
+}
+.my-color{
+    color: #8f998b;
+}
+.my-color:hover {
+    text-decoration: none;
+    color:#fd7e14;
+}
+/*文字样式*/
+.my-size{
+    color: rgba(24, 40, 4, 0.27);
+    font-size:1rem;
+}
+/*按钮样式*/
+.my-a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+    background: rgba(60, 211, 165, 0.77);
+}
+.my-size2{
+    background: rgba(36, 166, 136, 0.77);
+}
+/*图片样式 媒体查询*/
+.my_pp_fd:hover{
+    transition: all 1s;
+    transform: scale(1.1);
+    opacity:0.6;/*灰色透明度蒙版*/
+    cursor:pointer;
+}
+.my_pp:hover{
+    display: block;
+    position:relative;
+}
+.my_pp:hover .my_nav{
+    display: block;
+}
+.my_nav{
+    position:absolute;
+    display: none;
+    font-family: "kaiti";
+    top:70px;
+    left: 80px;
+    color:#93f7f0;
+    /*color:#fff;*/
+
+}
+.my_to{
+    position:absolute;
+    top:150px;
+    left:60px;
+}
+/*大屏lg*/
+@media screen and (max-width:1111px){
+    .my_img{
+        width: 100%;
+        /*margin-left: 15%;*/
+    }
+    .my_img1{
+        width: 100%;
+        /*margin-left: -10%;*/
+    }
+}
+/*中屏md*/
+@media screen and (min-width:768px)and(max-width:1100px ){
+    .my_img{
+        width: 100%;
+        margin-top: 17%;
+    }
+    .my_img1{
+        width: 100%;
+        margin-top: 17%;
+    }
+}
+/*小屏sm*/
+@media screen and (min-width:767px){
+    .my_img{
+        margin-left: 20%;
+        width: 80%;
+    }
+    .my_img1{
+        margin-right: 3%;
+        width: 80%;
+    }
+}

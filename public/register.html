@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+<h2>用户注册</h2>
+  用户：<input type="text" name="uname" id="uname"><br>
+  密码：<input type="text" name="upwd" id="upwd"><br>
+  <input onclick="funn()" type="submit">
+</body>
+<script>
+  //用用户注册
+  function funn() {
+    //1.创建异步对象xhr
+    var xhr = new XMLHttpRequest();
+    //2.绑定监听
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState == 4 && xhr.status == 200) {
+        var result = xhr.responseText;
+        //  console.log(result);
+        //跳转页面文件location.href
+        location.href = "index.html";
+      }
+    }
+    //3.打开链接，创建请求
+    xhr.open("post","/user/register",true);
+    var formdata = "uname=" + uname.value + "&upwd=" + upwd.value;
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    //4.发送请求
+    xhr.send(formdata);
+  }
+</script>
+</html>
+

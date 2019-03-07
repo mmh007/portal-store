@@ -1,0 +1,113 @@
+/*a标签样式*/
+.my_sp_a{
+    color:#000000;
+}
+.my_sp_a:hover{
+    text-decoration:none;
+    color: #3cd3a5;
+}
+/*.my_color2{*/
+    /*/!*border-bottom:1px solid #93f7f0;*!/*/
+/*}*/
+.my_sp_Zi:hover{
+    color: #000000;
+    text-decoration:none;
+    font-family: "kaiti";
+}
+.my_sp_Zi{
+    font-size:20px;
+    color: #ff0000;
+    font-family: "kaiti";
+}
+.my_sp_mr{
+    margin-right: -3rem;
+}
+.my_sp_input{
+    float: right;
+    left: 6rem;
+}
+.my_sp_zt{
+    font-size:15px;
+}
+.my_sp_bg{
+    background-color: rgba(223, 207, 204, 0.52);
+    border-bottom: 3px solid #00aa88;
+}
+.my_sp_li{
+    top:10px;
+    left:120px;
+    position:relative;
+}
+.my_sp_lia{
+    top:10px;
+    right:150px;
+    position:relative;
+}
+/*下拉列表*/
+.blue{background:rgb(132, 223, 229);color:#33a}
+.pink{background:#fdf;color:#a3a}
+.dark{background-color:#88b6ee}
+.red{background-color:red;}
+.orange{background-color:orange;}
+.gold{background-color:gold;}
+.green{background-color:green;}
+.white{background-color:mediumspringgreen;}
+.blue1{background-color:blue;}
+.purple{background-color:purple;}
+.black{background-color:black;}
+.white{background-color:white;}
+.grey{background-color:grey;}
+.white{background-color:silver;}
+/*右图区*/
+/*字体样式*/
+.my_sp_jg{
+    font-family:"kaiti";
+}
+.my_sp_pz{
+    font-family:"heiti";
+    font-size:18px;
+}
+.my_sp_pzs{
+    font-family:"youyuanu";
+    font-weight:bold;
+    font-size:13px;
+}
+/*图片区域样式*/
+.my_order{
+    border:2px solid red;
+}
+.my_sp_gl{
+    color:#EBF7FD;
+    background: #1c9b8f;
+}
+.my_sp_gl:hover{
+    background: rgba(60, 211, 165, 0.77);
+}
+/*右边菜单栏*/
+.my_sp_you li div{
+    width:100%;
+}
+.my_sp_you li p{
+    margin: 0;
+    padding: 0;
+}
+.my_sp_you li div img{
+    width:100%;
+}
+.my_sp_szH{
+    font-family: "youyuan";
+    font-size:15px;
+}
+.my_sp_szx{
+    font-family: "kaiti";
+    font-size:15px;
+}
+/*左侧图片样式*/
+.my_sp_imgH:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+    transition: all 0.5s;
+}
+.my_sp_szha{
+    color: #00aa88;
+}

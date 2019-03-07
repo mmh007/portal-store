@@ -1,0 +1,175 @@
+/*/!*第一层背景*!/*/
+.my_toph{
+    background-color: #f6f5fa;
+    margin:auto;
+}
+.my_topm{
+    background-color:#f0f0f0;
+    border-bottom: 2px solid #00aa88;
+}
+.my_topzi{
+    color:#00aa88;
+    font-size:1.3rem;
+    font-family:"DFKai-SB";
+}
+.my_topzi:hover{
+    color:#ff0000;
+    text-decoration:none;
+}
+.if-size{
+    font-size:0.9rem;
+    color:#00aa88;
+}
+/*第二层背景*/
+.my_bgb{
+    width:734px;
+    height:639px;
+    margin-top:28px;
+    background-color:#FFFFFF;
+    border-radius:2rem;
+}
+.my_bgc{
+    width:400px;
+    height:60px;
+    background-color:red;
+}
+.my_h6a{
+    font-size:1.3rem;
+    margin-left:1rem;
+    font-family:"KaiTi";
+    color:#000000;
+}
+.my_h6a:hover{
+    color:#000000;
+    text-decoration:none;
+}
+.my_h6{
+    font-size:1.3rem;
+    margin-left:8rem;
+    font-family:"KaiTi";
+    color:#000000;
+}
+.my_h6:hover{
+    color:#000000;
+    text-decoration:none;
+}
+.my_hr{
+    width: 21rem;
+    height:0.2rem;
+    background: #95a5a6;
+    border-radius:10rem;
+}
+/*清除背景黄色*/
+.my_form input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.my_form>input{
+    width: 21rem;
+    height:3rem;
+    font-size:0.8rem;
+    text-indent: 0.5rem;
+    border-radius:0.5rem;
+    outline: none;
+    border:1px solid #95a5a6 !important;
+}
+.my_form>input:focus{
+    outline: none;
+    border-radius:0.5rem;
+    border-color: #0069d9;
+}
+.my_yz{
+    width:8rem;
+    height:3rem;
+    font-size:0.8rem;
+    border-radius: 0.5rem;
+    text-indent:0.5rem;
+    outline: none;
+    border:1px solid #95a5a6 !important;
+}
+/*图片设置*/
+.my_ma{
+    width:6rem;
+    height:3rem;
+}
+.my_maa{
+   margin-left:3px;
+}
+/*三个btn按钮*/
+.my_mb1{
+    width:12rem;
+    height:3rem;
+    font-size:0.8rem;
+    border-radius: 0.5rem;
+    text-indent:0.5rem;
+    outline: none;
+    border:1px solid #95a5a6 !important;
+}
+.my_mb2{
+    width:8.5rem;
+    height:3rem;
+    margin-left: 0.5rem;
+}
+.my_mb3{
+    width:21rem;
+    height:3rem;
+}
+/*最后字体颜色*/
+.my_sizea{
+    font-size: 0.8rem;
+    color: #0069d9;
+}
+.my_size{
+    font-size: 0.8rem;
+    color: #ff0000;
+}
+.my_size:hover{
+    text-decoration: none;
+}
+.my_sizeb{
+    width:21rem;
+    height:3rem;
+    font-size:0.8rem;
+}
+.my_a:hover{
+    text-decoration:none;
+}
+/*底部*/
+.my_sizec{
+    color:#FFFFFF;
+    font-size:0.5rem;
+}
+.my_sized{
+    color:#FFFFFF;
+}
+.my_sized:hover{
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+.my_topma{
+
+    background-color:#000;
+}
+
+
+/*媒体查询*/
+@media screen and (max-width:1111px) {
+    .my_mt{
+        width: 100%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1110px){
+    .my_mt{
+        width: 80%;
+    }
+}
+@media screen and (min-width:767px)and (max-width:450px){
+    .my_mt{
+        width: 60%;
+    }
+}
+@media screen and (min-width:498px){
+    .my_mt{
+        width: 50%;
+    }
+}

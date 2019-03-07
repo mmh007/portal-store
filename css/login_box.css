@@ -1,0 +1,219 @@
+/*/!*第一层背景*!/*/
+/*.my_toph{*/
+    /*/!*background-color: #f6f5fa;*!/*/
+    /*margin:auto;*/
+/*}*/
+.my_topm{
+    background-color:#f0f0f0;
+    border-bottom: 2px solid #00aa88;
+}
+.my_topma{
+
+    background-color:#000;
+}
+.my_topzi{
+    color:#00aa88;
+    font-size:1.3rem;
+    font-family:"DFKai-SB";
+}
+.my_topzi:hover{
+    color:#ff0000;
+    text-decoration:none;
+}
+.if-size{
+    font-size:0.9rem;
+    color:#00aa88;
+}
+/*第二层背景*/
+.my_color{
+    background-color:palevioletred;
+    width:300px;
+    height:480px;
+    left:990px;
+}
+.my_zt{
+    position:relative;
+    margin-top:0px;
+    font-weight:bold;
+    font-family:"heiti";
+    /*margin-bottom:10px;*/
+}
+.my_form{
+    position:absolute;
+    margin-top:100px;
+    margin-left:54px;
+}
+.my_for{
+    width: 10rem!important;
+    height: 2rem!important;
+    font-size:1rem!important;
+    text-indent: 0.5rem!important;
+    border-radius: 0.5rem!important;
+}
+.my_for2{
+    width: 4rem!important;
+    height: 2rem!important;
+    font-size:1rem!important;
+    text-indent: 0.5rem!important;
+    border-radius: 0.5rem!important;
+}
+.my_pp{
+    text-align:center!important;
+}
+.my_bgc{
+    width:400px;
+    height:60px;
+    background-color:red;
+}
+.my_ha{
+    color:#000000;
+}
+.my_ha:hover{
+    color:#000000;
+    text-decoration:none;
+}
+.my_h6{
+    font-size:1.3rem;
+    margin-left:8rem;
+    font-family:"KaiTi";
+    color:#000000;
+}
+.my_h6:hover{
+    color:#000000;
+    text-decoration:none;
+}
+.my_hr{
+    width: 21rem;
+    height:0.2rem;
+    background: #95a5a6;
+    border-radius:10rem;
+}
+/*清除背景黄色*/
+.my_form input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.my_form>input{
+    width: 21rem;
+    height:3rem;
+    font-size:0.8rem;
+    text-indent: 0.5rem;
+    border-radius:0.5rem;
+    outline: none;
+    border:1px solid #95a5a6 !important;
+}
+.my_form>input:focus{
+    outline: none;
+    border-radius:0.5rem;
+    border-color: #0069d9;
+}
+.my_yz{
+    width:8rem;
+    height:3rem;
+    font-size:0.8rem;
+    border-radius: 0.5rem;
+    text-indent:0.5rem;
+    outline: none;
+    border:1px solid #95a5a6 !important;
+}
+/*图片设置*/
+.my_ma{
+    width:6rem;
+    height:3rem;
+}
+.my_maa{
+   margin-left:3px;
+}
+/*三个btn按钮*/
+.my_mb1{
+    width:12rem;
+    height:3rem;
+    font-size:0.8rem;
+    border-radius: 0.5rem;
+    text-indent:0.5rem;
+    outline: none;
+    border:1px solid #95a5a6 !important;
+}
+.my_mb2{
+    width:8.5rem;
+    height:3rem;
+    margin-left: 0.5rem;
+}
+.my_mb3{
+    width:21rem;
+    height:3rem;
+}
+/*最后字体颜色*/
+.my_asa{
+    /*text-align:center;*/
+    margin-left:-15px;
+
+}
+.my_asaa{
+    /*text-align:center;*/
+    position:absolute;
+    /*margin-right:100px;*/
+    margin-left:120px;
+    margin-top: -482px;
+}
+.my_as{
+    /*position:relative;*/
+    z-index:-1;
+
+
+}
+.my_sizea{
+    font-size: 0.8rem;
+    color: #0069d9;
+}
+.my_size{
+    font-size: 0.8rem;
+    color: #FFFFFF;
+}
+.my_size:hover{
+    text-decoration: none;
+}
+.my_sizeb{
+    width:21rem;
+    height:3rem;
+    font-size:0.8rem;
+    margin:auto;
+}
+.my_a:hover{
+    text-decoration:none;
+}
+/*底部*/
+.my_bt{
+    background-color: #000;
+}
+.my_sizec{
+    color:#FFFFFF;
+    font-size:0.5rem;
+}
+.my_sized{
+    color:#FFFFFF;
+}
+.my_sized:hover{
+    color:#FFFFFF;
+    text-decoration:none;
+}
+/*媒体查询*/
+@media screen and (max-width:1111px) {
+    .my_mt{
+        width: 100%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1110px){
+    .my_mt{
+        width: 80%;
+    }
+}
+@media screen and (min-width:767px)and (max-width:450px){
+    .my_mt{
+        width: 60%;
+    }
+}
+@media screen and (min-width:498px){
+    .my_mt{
+        width: 50%;
+    }
+}

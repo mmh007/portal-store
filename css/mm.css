@@ -1,0 +1,56 @@
+.my_mess{
+    margin:0 auto;
+    height:100%;
+    width:65%;
+    text-align:center;
+    background-image:url(../images/parallax.jpg)
+}
+.my_mes{
+    background-color: #619fbf;
+    height:100%;
+}
+.my_width{
+    width:878px;
+    height:6px;
+}
+.my_ww{
+    border-bottom:2px solid #c6c8ca;
+    padding:8px;
+    color:#00ccff;
+}
+.my_bonnta{
+     height:100%;
+     width:180px;
+    font-family:"songti";
+     border-bottom:1px dotted #17A1B7;
+ }
+.my_bonntd{
+    width:180px;
+    border-bottom:1px dotted #17A1B7;
+}
+.my_bonnt{
+    text-align:left;
+    text-indent: 2em;/*Ê×ÐÐËõ½ø*/
+    height:100%;
+    flex-wrap: wrap-reverse;
+    border-bottom:1px dotted #17A1B7;
+}
+.my_bon{
+    font-weight:bold;
+    font-family: "heiti";
+    color:#002752;
+}
+.my_c{
+    color:#4F4F4F;
+}
+.my_b{
+    display:block;
+    height: 15%;
+}
+.my_d{
+    margin-left:5%;
+}
+.my_s{
+    background-color: rgba(246, 229, 227, 0.28);
+    border: 1px solid #dddddd;
+}
