@@ -1,0 +1,50 @@
+<!DOCTYPE html>  
+<html>
+<head>  
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+<title>进入..公司地址...</title>
+<style type="text/css">  
+    html{height:90%;width:90%}
+    body{
+        height:90%;
+        margin:0px;
+        padding:0px;
+        margin-left:15%;
+        margin-top:10px;
+    }
+    #container{height:95%}
+</style>
+    <!-- v2.0版本的引用方式：src="http://api.map.baidu.com/api?v=2.0&ak=您的密钥"-->
+<script src="http://api.map.baidu.com/api?v=2.0&ak=u70A5pnNrRtRT1XAgwM5jL2YIVj1Gv97"></script>
+</head>
+<body> 
+    <div id="container"></div>
+<script > 
+    var map = new BMap.Map("container");
+    // 创建地图实例  
+    var point = new BMap.Point(109.609248,27.955249);
+    // 创建点坐标  
+    map.centerAndZoom(point, 12);
+    // 初始化地图，设置中心点坐标和地图级别 
+    //导航的控件
+    map.addControl(new BMap.NavigationControl());
+    //缩放控件    
+    map.addControl(new BMap.ScaleControl());  
+    //地图类控件
+    map.addControl(new BMap.MapTypeControl()); 
+    map.addControl(new BMap.OverviewMapControl());    
+    //map.setCurrentCity("北京"); // 仅当设置城市信息时，MapTypeControl的切换功能才能可用    
+//驾车
+    map.centerAndZoom(new BMap.Point(109.609248,27.955249), 12);    
+    var driving = new BMap.DrivingRoute(map, {    
+    renderOptions: {    
+        map   : map,     
+        panel : "results",    
+        autoViewport: true    
+        }    
+    });    
+    driving.search("上海南站", "凤凰古城");
+</script>  
+</body>  
+</html>
