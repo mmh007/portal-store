@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>会员注册界面</title>
+    <meta name="viewport" charset="width=device-width，initial-scale=1.0">
+    <!-- 引入boot文件，引入顺序有要求-->
+    <link rel="stylesheet" href="css/boot/bootstrap.css"/>
+    <script src="css/boot/jquery.min.js"></script>
+    <script src="css/boot/popper.min.js"></script>
+    <script src="css/boot/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/font/css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/font/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/login_boxa.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+<div class="container  m-0 p-0 mw-100 h-100">
+    <div class="position-relative my_toph">
+        <!-- 顶部详情---导航栏 -->
+        <div class="my_topm p-4 m-0 ">
+            <div class="justify-content-between d-flex ml-5 ">
+                <div class="mt-2  ml-5">
+                    <img src="images/logo.png" class="" alt=""/>
+                </div>
+                <div class="justify-content-between">
+                    <ul class="list-unstyled d-flex mt-2">
+                        <li><a href="index.html" class="list-unstyled my_topzi ml-4">企业之家</a></li>
+                        <li><a href="ourt.html" class="list-unstyled my_topzi ml-4">关于我们</a></li>
+                        <li><a href="bigraph.html" class="list-unstyled my_topzi ml-4">投资组合</a></li>
+                        <li><a href="bigrapp.html" class="list-unstyled my_topzi ml-4">微博博客</a></li>
+                        <li><a href="shop.html" class="list-unstyled my_topzi ml-4">店家</a></li>
+                        <li><a href="liaison.html" class="list-unstyled my_topzi ml-4">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="top-a2 col-lg-3 col-md-4 col-sm-12 p-0">
+                    <input type="text" placeholder="展览一角！" value="" class="border-0 rounded m-0 t m-2 w-75 my_w_80 fa-1x if-size" />
+                    <a href="#" class="right Example fa of fa-search if ie2 clearfix m-0 p-0"></a>
+                </div>
+            </div>
+        </div>
+        <!-- 登录界面-->
+        <div class="mt-3 mb-3">
+            <div class="m-auto my_bgb row ">
+                <div class="m-auto w-50 col-6 my_mt"><br/>
+                    <a href="#" class="d-inline my_h6a">手机注册</a>
+                    <a href="#" class="d-inline my_h6">邮件注册</a>
+                    <hr class="my_hr ml-0"/>
+                    <!-- method="post"-->
+                    <form action="" method="" class="my_form">
+                        <input type="text" name="uname" class="border-0 my_padding" autofocus placeholder="手机号" required required minlength="3" maxlength="8" id="uname"/><span></span><br><br>
+                        <input type="password" name="upwd" class="border-0 my_padding" required placeholder="密码" minlength="3" maxlength="8" id="upwd"/>
+                        <span></span><br><br>
+                        <input type="password" name="upwda" class="border-0 my_padding" placeholder="确认密码"/><span></span><br><br/>
+                        <div class="d-flex ">
+                            <input  type="text" name="uname" class="my_yz mt-0 border-0" placeholder="验证码"/>
+                            <img src="images/ma1.png" class="my_ma mt-0 p-0 ml-2" alt=""/>
+                            <img src="images/ma2.png" class="my_ma mt-0 p-0 ml-2" alt=""/>
+                        </div><br/>
+                        <div class="d-flex">
+                            <input type="" name="uname" class="m-0 mt-0 border-0 my_mb1" placeholder="动态码"/>
+                            <a href="#" class="btn btn-primary my_mb2">获取动态码</a>
+                        </div><br/>
+                    <span class="">
+                        <!--<a href="skip.html" class="btn btn-primary my_mb3 m-0 mt-0 " value="注册" onclick="funn()">注册</a>-->
+                        <input type="button" class="btn btn-primary my_mb3 m-0 mt-0" value="注册" onclick="register()">
+                    </span><br/><br/>
+                        <div class="my_sizeb">
+                            <input type="checkbox" name="auto"  id="auto"/>
+                            <label for="auto">我已阅读并同意 </label>
+                            <a href="#" class="my_size">《用户注册协议》</a>
+                            <span class="">已有账号？</span>
+                            <i class="my_sizea"><a class="my_a" href="#">立即登录</a></i>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- 底部详情 -->
+        <div class="my_topma p-0 m-0 ">
+            <div class="justify-content-between d-flex ml-5 ">
+                <div class="justify-content-between">
+                    <ul class="my_sizec list-unstyled d-flex mt-5">
+                        <li class="ml-2"><a href="#" class="my_sized list-unstyled">关于我们</a>
+                        <li class="ml-2">|&nbsp;&nbsp;<a href="#" class="my_sized list-unstyled">招聘信息</a>
+                        <li class="ml-2">|&nbsp;&nbsp;<a href="#" class="my_sized list-unstyled">联系我们</a>
+                        <li class="ml-2">|&nbsp;&nbsp;<a href="#" class="my_sized list-unstyled">商务合作</a>
+                        <li class="ml-2">|&nbsp;&nbsp;<a href="#" class="my_sized list-unstyled">站长统计</a>
+                    </ul>
+                    <li class="my_sizec list-unstyled m-auto">
+                        <p>Copyright &copy; 企业之家有限公司版权所有 京ICP备12003709号-2</p>
+                    </li>
+                </div>
+                <div class="m-auto">
+                    <ul class="my_sizec  list-unstyled mt-5">
+                        <li class="mt-3">达内精品在线WWW.TMOOC.CN 专注于IT职业技能培训</li>
+                        <li class="mt-3">涵盖20余门课程体系，致力于打造最权威的IT职业教育学习平台</li>
+                    </ul>
+                </div>
+                <div class="m-auto">
+                    <img src="images/erweima.png" alt=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/ajax.js"></script>
+<script  src="js/jquery-1.11.3.js"></script >
+</body>
+</html>

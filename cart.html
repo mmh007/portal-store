@@ -13,13 +13,22 @@
   <header id="header" class="container">
   </header>
   <main id="main" class="container">
+    <!--<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-transparent border-bottom box-shadow">-->
+      <!--<h5 class="my-0 mr-md-auto font-weight-bold">购物车</h5>-->
+      <!--<nav class="my-2 my-md-0 mr-md-3">-->
+        <!--<span class="p-2 text-dark small">已选</span>-->
+        <!--<span class="p-2 text-primary font-weight-bold">1</span>-->
+        <!--<span class="p-2 text-dark small">件商品 合计(不计运费)：</span>-->
+        <!--<span class="p-2 text-primary font-weight-bold">¥5299.00</span>-->
+      <!--</nav>-->
+    <!--</div>-->
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-transparent border-bottom box-shadow">
-      <h5 class="my-0 mr-md-auto font-weight-bold">购物车</h5>
+      <h5 class="my-0 mr-md-auto font-weight-bold">购 物 车</h5>
       <nav class="my-2 my-md-0 mr-md-3">
-        <span class="p-2 text-dark small">已选</span>
-        <span class="p-2 text-primary font-weight-bold">1</span>
-        <span class="p-2 text-dark small">件商品 合计(不计运费)：</span>
-        <span class="p-2 text-primary font-weight-bold">¥5299.00</span>
+        <span class="p-2 text-dark small">我的收藏夹</span>
+        <a href="#"><img src="logo/foodstore_img3_1.png" class=""/></a>
+        <span class="p-2 text-dark small">您的宝贝出发啦！</span>
+        <a href="#"><img src="logo/orderinfo_img3_1.png" class=""/></a>
       </nav>
     </div>
     <table id="cart" class="table">
@@ -58,7 +67,7 @@
           <span>¥648.00</span>
         </div>
         <div class="border px-0 py-5 text-center" id="ab">
-          <button class="btn btn-secondary p-0 py-0 border-1 ml-1" type="button">-</button>
+            <button class="btn btn-secondary p-0 py-0 border-1 ml-1" type="button">-</button>
           <!--<input type="text" class="p-0 m-0"value="2" >-->
           <span class="p-0 m-0">1</span>
           <button class="btn btn-secondary p-0 py-0 border-1 mr-1" type="button">+</button>
@@ -116,17 +125,17 @@
         <span class="p-2 text-dark small">件商品 合计(不计运费)：</span>
         <span class="p-2 text-primary font-weight-bold" id="aeDiv">¥5299.00</span>
       </nav>
-      <a class="btn btn-primary px-5" href="#">去结算</a>
+        <a class="btn btn-primary px-5 my_sf1 isf1" href="javasript:;">去结算</a>
     </div>
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-body pt-5 pl-5">
-            <p id="alertMsg_info"> <img style="height:50px;" src="#" alt=""><span class="ml-5 pl-5">您尚未登录！</span></p>
+            <p id="alertMsg_info"> <img style="height:50px;" src="logo/tan.png" alt=""><span class="ml-5 pl-5">您尚未登录！</span></p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-warning text-white" onclick="javascript:location.href='login.html'">确定</button>
+            <button type="button" class="btn btn-warning text-white" onclick="javascript:location.href='login_box.html'">确定</button>
           </div>
         </div>
       </div>
@@ -138,7 +147,7 @@
   <script src="js/bootstrap.js"></script>
   <script src="js/ajax.js"></script>
   <script>
-    //$('#myModal').modal('show');
+   // $('#myModal').modal('show');
   </script>
 </body>
 </html>
